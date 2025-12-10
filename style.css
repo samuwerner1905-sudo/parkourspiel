@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
+}
+#ui {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+#joystick {
+  width: 120px;
+  height: 120px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#jumpBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 20px 30px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
